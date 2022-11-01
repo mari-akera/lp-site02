@@ -1,0 +1,17 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.remodal {
+  padding: 90px 24px 20px !important;
+  max-width: 1440px !important;
+  }
+@media (max-width:768px){
+.remodal {
+ padding: 30px 24px 0 !important;
+  }}
+@media(min-width:1024px){
+.remodal-close:before {
+    font-size: 72px !important;
+    top: 30px !important;
+    left: 30px !important;
+}}
